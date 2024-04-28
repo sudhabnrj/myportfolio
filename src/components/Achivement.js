@@ -7,9 +7,9 @@ const Achivement = () => {
         <div className=" rounded-md lg:p-4 bg-orange-100 dark:bg-slate-800">
             <div className="flex flex-wrap">
                 <div className="w-full sm:w-8/12 lg:p-10">
-                    <h3 className="font-bold text-xl mb-3 text-slate-700 dark:text-slate-300">Title</h3>
-                    <p>Sub title</p>
-                    <p className="mt-4 text-gray-600 dark:text-slate-300 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptates quam quo illum hic, eum omnis cumque vel reiciendis aliquid, in nulla! Minus, voluptas dignissimos fugiat minima asperiores, at quaerat assumenda nobis distinctio blanditiis earum. Ad repellat quidem dicta, impedit ipsa rem delectus facilis reiciendis. Temporibus a rem incidunt necessitatibus.</p>
+                    <h3 className="font-bold text-xl mb-3 text-slate-700 dark:text-slate-300">Outstanding performance in Frontend Development</h3>
+                    <p className='text-slate-600 dark:text-slate-400'>Codeclouds It Solutions Private Limited - 2023</p>
+                    <p className="mt-4 text-gray-600 dark:text-slate-300 font-normal">🌟 Thrilled to be recognized for outstanding performance in HTML Development for the year 2023! 🏆 It's been a passion-driven journey, and I'm grateful for the opportunity to contribute to innovative web solutions.</p>
                 </div>
                 <div className="w-full sm:w-4/12 mt-5 lg:mt-0">
                     <div className="flex flex-wrap">

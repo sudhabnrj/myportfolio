@@ -3,6 +3,8 @@ import { unsplashPhotos } from '../utils/constents';
 import ClearIcon from '@mui/icons-material/Clear';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import { Link } from 'react-router-dom';
+import CallMadeIcon from '@mui/icons-material/CallMade';
 const ImageGallery = () => {
 
     const [imageToShow, setImageToShow] = useState("");
@@ -11,17 +13,19 @@ const ImageGallery = () => {
     //looping through our images array to create img elements
     const imageCards = unsplashPhotos.map((image, index) => (
         <li key={index} className="w-full md:w-1/2 lg:w-1/3 rounded-md p-4">
-            <span className="cursor-pointer w-full h-[200px] relative">
-                <img className="image-card aspect-square w-full object-cover h-[200px]" onClick={() => showImage(image)} src={image.thumbUrl} />
+            <span className="cursor-pointer w-full h-[250px] relative">
+                <img className="image-card aspect-square w-full object-cover h-[250px]" onClick={() => showImage(image)} src={image.thumbUrl} />
             </span>
-            <h1 className="text-3xl my-4">{image.title}</h1>
-            <p>
+            <h1 className="text-2xl my-4">
+              {image.url ? <Link to={image.url} target="_blank" className='underline'>{image.title}<CallMadeIcon className='!w-4 !h-4'/></Link> : image.title}
+            </h1>
+            <div className='flex flex-wrap justify-start items-start'>
               {image.techStack.map((tech, index)=> {
                 return(
-                  <span className="font-normal text-slate-700 dark:text-slate-300 relative border border-stone-400 py-1 px-4 rounded-md dark:border-slate-700 mr-2" key={index}>{Object.values(tech)}</span>
+                  <span className="font-normal text-slate-700 dark:text-slate-300 relative border border-stone-400 py-1 px-4 rounded-md dark:border-slate-700 mr-2 mb-2" key={index}>{Object.values(tech)}</span>
                 );
               })}
-            </p>
+            </div>
         </li>      
     ));
   

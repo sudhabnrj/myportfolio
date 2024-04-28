@@ -16,9 +16,11 @@ import mui from '../assets/images/mui.png';
 import woo from '../assets/images/woo.png';
 import chatgpt from '../assets/images/chatgpt.png';
 
-import projects1 from '../assets/images/opl-master.jpg';
-import projects2 from '../assets/images/achivement1.jpg';
-import projects3 from '../assets/images/achivement2.jpg';
+import shopeefood from '../assets/images/shopeefood.png';
+import paperlinkLarge from '../assets/images/paperlink.png';
+import phototainment from '../assets/images/phototainment.png';
+import phoenix from '../assets/images/phoenix.png';
+import gotripio from '../assets/images/gotripio.png';
 
 export const getSkills = [
     [
@@ -53,6 +55,12 @@ export const getSkills = [
             experience: '5 years'
         },
         {
+            id: 11,
+            name: 'React Js',
+            src: reactjs,
+            experience: '2 years'
+        },
+        {
             id: 6,
             name: 'SASS',
             src: sass,
@@ -81,12 +89,6 @@ export const getSkills = [
             name: 'jQuery',
             src: jquery,
             experience: '7 years'
-        },
-        {
-            id: 11,
-            name: 'React Js',
-            src: reactjs,
-            experience: '2 years'
         },
         {
             id: 12,
@@ -154,54 +156,66 @@ export const getSkills = [
 export const educationData = [
     {
         id: 0,
-        degree: 'Degree Name1',
-        college: 'College / School Name1',
-        year_of_passing: '2024'
+        degree: 'DIPLOMA IN COMPUTER SCIENCE AND TECHNOLOGY',
+        college: 'Kingston Polytechnic College',
+        year_of_passing: '2011 - 2013'
     },
     {
         id: 1,
-        degree: 'Degree Name2',
-        college: 'College / School Name2',
-        year_of_passing: '2024'
+        degree: '10+2 LEVEL HIGHER SECONDARY(VOCATIONAL)',
+        college: 'West Bengal State Council of Technical and Vocational Education and Skill Development',
+        year_of_passing: '2009 - 2011'
     },
     {
         id: 2,
-        degree: 'Degree Name3',
-        college: 'College / School Name3',
-        year_of_passing: '2024'
+        degree: 'HIGHER SECONDARY',
+        college: 'West Bengal Council of Higher Secondary Education',
+        year_of_passing: '2009'
     },
     {
         id: 3,
-        degree: 'Degree Name4',
-        college: 'College / School Name4',
-        year_of_passing: '2024'
+        degree: 'SECONDARY',
+        college: 'West Bengal Board Of Secondary Education',
+        year_of_passing: '2007'
     }
 ]
 
 export const certificationData = [
     {
         id: 0,
-        title: 'Certification Name',
+        title: 'Certificate of Completion - Namaste React',
+        issue_by: 'Akshay Saini - NamasteDev.com',
+        issue_date: 'April 2024'
+    },
+    {
+        id: 1,
+        title: 'React Js - Complete Guide for Frontend Web Development',
         issue_by: 'Udemy',
         issue_date: 'June 08, 2023'
     },
     {
-        id: 1,
-        title: 'Certification Name2',
-        issue_by: 'Udemy',
-        issue_date: 'June 08, 2024'
-    },
-    {
         id: 2,
-        title: 'Certification Name3',
+        title: 'Bootstrap 4 Bootcamp',
         issue_by: 'Udemy',
-        issue_date: 'June 12, 2024'
+        issue_date: 'August 05, 2019'
     },
     {
         id: 3,
-        title: 'Certification Name4',
+        title: 'Materialize CSS from Scratch With 5 Projects',
         issue_by: 'Udemy',
-        issue_date: 'June 12, 2025'
+        issue_date: 'October 04, 2019'
+    },
+    {
+        id: 4,
+        title: 'Adobe Photoshop CC-Advanced Training Course',
+        issue_by: 'Udemy',
+        issue_date: 'July 04, 2020'
+    },
+    {
+        id: 5,
+        title: 'jQuery From Beginner to Advanced!',
+        issue_by: 'Udemy',
+        issue_date: 'August 20, 2019'
     }
 ]
 
@@ -240,74 +254,98 @@ export const workData = [
 
 export const unsplashPhotos = [
 	{
-		"id":  1,
-		"thumbUrl":  "https://picsum.photos/200/800",
-        "largeSrc": 'https://placehold.co/1200x900',
-		"title":  "Lorem Ipsum",
+		"id":  0,
+		"thumbUrl":  shopeefood,
+        "largeSrc": shopeefood,
+        "url": 'https://shopeefood.netlify.app/',
+		"title":  "Shopeefood Food Ordering Website",
 		"techStack": [
             {
-                'html': "HTML"
+                'react': "React Js"
             },
             {
-                'css': "CSS"
+                'html': "HTML5"
+            },
+            {
+                'css': "Tailwind Css"
+            },            
+            {
+                'wordpress': 'Parcel'
+            }
+
+        ]
+	},
+    {
+		"id":  1,
+		"thumbUrl":  paperlinkLarge,
+        "largeSrc": paperlinkLarge,
+		"title":  "PaperLink Software Official Website",
+		"techStack": [
+            {
+                'photoshop': "Photoshop"
+            },
+            {
+                'html': "HTML5"
+            },
+            {
+                'css': "CSS3"
+            },
+            {
+                'bootstrap': "Bootstrap"
             },
             {
                 'javascript': "Javascript"
             },
             {
                 'wordpress': 'Wordpress'
+            },
+            {
+                'wordpress': 'ACF'
             },          
 
         ]
 	},
 	{
 		"id":  2,
-		"thumbUrl":  "https://picsum.photos/300/200",
-        "largeSrc": 'https://placehold.co/1600x800',
-		"title":  "Lorem Ipsum",
+		"thumbUrl":  phototainment,
+        "largeSrc": phototainment,
+		"title":  "Phototainment",
+        "url": "https://www.phototainment.com/",
 		"techStack": [
             {
-                'html': "HTML"
+                'photoshop': "Photoshop"
             },
             {
-                'css': "CSS"
+                'html': "HTML5"
+            },
+            {
+                'css': "CSS3"
+            },
+            {
+                'bootstrap': "Bootstrap"
             },
             {
                 'javascript': "Javascript"
             },
             {
                 'wordpress': 'Wordpress'
-            },          
-
-        ]
-	},
-	{
-		"id":  3,
-		"thumbUrl":  "https://picsum.photos/800/200",
-        "largeSrc": 'https://placehold.co/1000x900',
-		"title":  "Lorem Ipsum",
-		"techStack": [
-            {
-                'html': "HTML"
             },
             {
-                'css': "CSS"
-            },
-            {
-                'javascript': "Javascript"
-            },
-            {
-                'wordpress': 'Wordpress'
+                'acf': 'ACF'
             },         
 
         ]
 	},
 	{
-		"id":  4,
-		"thumbUrl":  "https://picsum.photos/500/800",
-        "largeSrc": 'https://placehold.co/1400x900',
-		"title":  "Lorem Ipsum",
+		"id":  3,
+		"thumbUrl":  phoenix,
+        "largeSrc": phoenix,
+        "url": "https://phoenixinfosoft.com/",
+		"title":  "Phoenix Infosoft official website",
 		"techStack": [
+            {
+                'photoshop': "Photoshop"
+            },
             {
                 'html': "HTML"
             },
@@ -315,20 +353,33 @@ export const unsplashPhotos = [
                 'css': "CSS"
             },
             {
+                'bootstrap': "Bootstrap"
+            },
+            {
                 'javascript': "Javascript"
             },
             {
                 'wordpress': 'Wordpress'
+            },
+            {
+                'acf': 'ACF'
+            },  
+            {
+                'elementer': 'Elementor'
             },           
 
         ]
 	},
 	{
 		"id":  4,
-		"thumbUrl":  "https://picsum.photos/500",
-        "largeSrc": 'https://placehold.co/1920x900',
-		"title":  "Lorem Ipsum",
+		"thumbUrl":  gotripio,
+        "largeSrc": gotripio,
+        "url": "https://gotripio.com/",
+		"title":  "Gotripio, Indian Travel Agency",
 		"techStack": [
+            {
+                'photoshop': "Photoshop",
+            },
             {
                 'html': "HTML"
             },
@@ -336,11 +387,20 @@ export const unsplashPhotos = [
                 'css': "CSS"
             },
             {
+                'bootstrap': "Bootstrap"
+            },
+            {
                 'javascript': "Javascript"
             },
             {
                 'wordpress': 'Wordpress'
-            },         
+            },
+            {
+                'acf': 'ACF'
+            },
+            {
+                'elementor': 'Elementor'
+            },
 
         ]
 	}

@@ -14,8 +14,9 @@ const About = () => {
                 <div className="flex flex-col justify-between items-start">
                     <div className="flex flex-col w-full mt-10 rounded-md lg:p-5">
                         <h1 className="text-4xl font-bold leading-10 text-stone-950 dark:text-stone-50 mb-16">
-                            <span>Personal Details</span>
+                            <span>Personal Details </span>
                         </h1>
+                        <p className='font-normal mb-5 text-stone-900 dark:text-slate-300'>Working as a <strong>Senior HTML Developer</strong> full-time at <strong>Codeclouds IT Solutions Private Limited</strong> with <strong>9</strong> years experience in Frontend Technologies - <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>React Js</strong>, <strong>Bootstrap</strong>, <strong>Photoshop</strong>, <strong>Adobe XD</strong>, <strong>Figma</strong>, <strong>Parcel</strong> and <strong>Github</strong> In addition to it also having knowledge in <strong>WordPress</strong>, <strong>Woo-commerce</strong>, <strong>SCSS</strong> and <strong>Material Design</strong>. Being a quick and focused learner, seeking opportunities to upskill myself and learn new skills to enhance quality of work and handle more responsibilities.</p>
                         <div className="border border-yellow-300 rounded-md p-4">
                             <PersonalDetails/>
                         </div>

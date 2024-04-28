@@ -68,9 +68,9 @@ const Home = () => {
                                 </Link>
                             </li>
                             <li>
-                                <a href="#">
+                                <Link target="_blank" to="https://www.facebook.com/sudhachandan.banerjee">
                                     <FacebookIcon className="!w-8 !h-8 text-slate-700 dark:text-slate-300" />                                  
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                         <div className="flex justify-between mt-5">
