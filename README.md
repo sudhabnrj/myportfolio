@@ -19,7 +19,7 @@
     <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center" >
-    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,redux,javascript,tailwind,firebase,git,parcel,npm" />
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,redux,javascript,tailwind,firebase,git,npm" />
   <br/>
     <img src="https://skillicons.dev/icons?i=figma,photoshop,xd,wordpress,mysql" /><br>
 </div>
