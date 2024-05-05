@@ -15,6 +15,11 @@ import sass from '../assets/images/sass.png';
 import mui from '../assets/images/mui.png';
 import woo from '../assets/images/woo.png';
 import chatgpt from '../assets/images/chatgpt.png';
+import redux from '../assets/images/redux-icon.webp';
+import parceljs from '../assets/images/parceljs.png';
+import npmlogo from '../assets/images/npm-logo.png';
+import acf from '../assets/images/acf.png';
+import elementor from '../assets/images/elementor.webp';
 
 import shopeefood from '../assets/images/shopeefood.png';
 import paperlinkLarge from '../assets/images/paperlink.png';
@@ -61,6 +66,30 @@ export const getSkills = [
             experience: '2 years'
         },
         {
+            id: 17,
+            name: 'Redux Toolkit',
+            src: redux,
+            experience: '2 years'
+        },
+        {
+            id: 18,
+            name: 'Parcel',
+            src: parceljs,
+            experience: '2 years'
+        },
+        {
+            id: 19,
+            name: 'NPM',
+            src: npmlogo,
+            experience: '2 years'
+        },
+        {
+            id: 15,
+            name: 'Github',
+            src: github,
+            experience: '5 years'
+        },
+        {
             id: 6,
             name: 'SASS',
             src: sass,
@@ -92,9 +121,9 @@ export const getSkills = [
         },
         {
             id: 12,
-            name: 'Material UI',
+            name: 'Material Design',
             src: mui,
-            experience: '2 years'
+            experience: '5 years'
         },
         {
             id: 13,
@@ -109,9 +138,15 @@ export const getSkills = [
             experience: '5 years'
         },
         {
-            id: 15,
-            name: 'Github',
-            src: github,
+            id: 20,
+            name: 'ACF',
+            src: acf,
+            experience: '7 years'
+        },
+        {
+            id: 21,
+            name: 'Elementor',
+            src: elementor,
             experience: '5 years'
         },
         {
@@ -120,6 +155,7 @@ export const getSkills = [
             src: chatgpt,
             experience: '1 years'
         }
+        
     ],
     [
         {
@@ -188,6 +224,12 @@ export const certificationData = [
         issue_date: 'April 2024'
     },
     {
+        id: 6,
+        title: 'Namaste JavaScript',
+        issue_by: 'Akshay Saini - NamasteDev.com',
+        issue_date: 'November, 2023'
+    },
+    {
         id: 1,
         title: 'React Js - Complete Guide for Frontend Web Development',
         issue_by: 'Udemy',
@@ -222,33 +264,68 @@ export const certificationData = [
 export const workData = [
     {
         id: 0,
-        designation: 'Current Designation',
-        companyName: 'Google',
-        //totalExp: '8',
-        joiningDate: 'April 01, 2020',
-        lastDate: '',
+        designation: 'Senior HTML Developer',
+        companyName: 'Codeclouds IT Solutions',
+        location: 'Kolkata',
+        joiningDate: 'March 07, 2019',
+        //lastDate: '',
         currentlyWorking: true,
-        summary: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis explicabo animi, rem magni, deleniti sit reiciendis recusandae consequuntur incidunt voluptatem pariatur vitae dicta voluptatum libero ipsa cumque inventore veniam vero eveniet laudantium quae odio harum assumenda? Optio itaque, consequatur officiis debitis officia reprehenderit nostrum. Perspiciatis laborum quisquam quos alias repudiandae.'
+        summary: [
+            {text: 'I initiated my professional journey as a Frontend Developer, rapidly acquiring and applying industry-standard skills in software development and design.'},
+            {text: 'Translated designs and wireframes into high-quality, SEO-friendly code using Figma, Photoshop, XD, HTML5, CSS3, Bootstrap, and JavaScript frameworks like React.js.'},
+            {text: 'Additionally, I worked on WordPress theme design and custom theme development using ACF, Elementor and WooCommerce.'},
+            {text: 'Sending updates to clients regarding work progress via email or Slack, and attending client meetings.'}
+        ]
     },
     {
         id: 1,
-        designation: 'Current Designation',
-        companyName: 'Amazon',
-        //totalExp: '2',
-        joiningDate: 'January 01, 2022',
-        lastDate: 'June 08 2023',
+        designation: 'Senior Web Designer',
+        companyName: 'Creativemine Software Solutions',
+        location: 'Durgapur',
+        joiningDate: 'October 2017',
+        lastDate: 'March 2019',
         currentlyWorking: false,
-        summary: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis explicabo animi, rem magni, deleniti sit reiciendis recusandae consequuntur incidunt'
+        summary: [
+            {text: 'In this role, I create layout designs and mockups using Photoshop according to client requirements, and then implement functionality using HTML5, CSS3, Bootstrap, and WordPress.'},
+            {text: 'Additionally, I design logos and banners for social media posts using Photoshop.'},
+            {text: 'I also communicate work progress updates to clients via email and attend client meetings.'}
+        ]
     },
     {
         id: 2,
-        designation: 'Current Designation',
-        companyName: 'Flipkart',
-        //totalExp: '1',
-        joiningDate: 'March 22, 2018',
-        lastDate: 'December 30 2022',
+        designation: 'Web Designer',
+        companyName: 'Paperlink Software Pvt. Ltd.',
+        location: 'Kolkata',
+        joiningDate: 'March 2016',
+        lastDate: 'October 2017',
         currentlyWorking: false,
-        summary: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis explicabo animi, rem magni, deleniti sit reiciendis recusandae consequuntur incidunt voluptatem pariatur vitae dicta voluptatum libero ipsa cumque inventore veniam vero eveniet laudantium quae odio harum assumenda? Optio itaque, consequatur officiis debitis officia reprehenderit nostrum. Perspiciatis laborum quisquam quos alias repudiandae.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis explicabo animi, rem magni, deleniti sit reiciendis recusandae consequuntur incidunt voluptatem pariatur vitae dicta voluptatum libero ipsa cumque inventore veniam vero eveniet laudantium quae odio harum assumenda? Optio itaque, consequatur officiis debitis officia reprehenderit nostrum. Perspiciatis laborum quisquam quos alias repudiandae.'
+        summary: [
+            
+        ]
+    },
+    {
+        id: 3,
+        designation: 'Web Designer',
+        companyName: 'Xigmapro Software Pvt. Ltd.',
+        location: 'Kolkata',
+        joiningDate: 'August 2015',
+        lastDate: 'March 2016',
+        currentlyWorking: false,
+        summary: [
+           
+        ]
+    },
+    {
+        id: 4,
+        designation: 'Web Designer',
+        companyName: 'Trcs Pvt. Ltd.',
+        location: 'Kolkata',
+        joiningDate: 'February 2015',
+        lastDate: 'August 2015',
+        currentlyWorking: false,
+        summary: [
+            
+        ]
     },
 ]
 
@@ -271,15 +348,30 @@ export const unsplashPhotos = [
             },            
             {
                 'wordpress': 'Parcel'
+            },
+            {
+                'api': 'Swigy API',
+            },
+            {
+                'redux': 'Redux Toolkit',
+            },
+            {
+                'firebase': 'Firebase'
+            },
+            {
+                'parcel': 'Parcel',
+            },
+            {
+                'npm': 'NPM',
             }
-
         ]
 	},
     {
 		"id":  1,
 		"thumbUrl":  paperlinkLarge,
         "largeSrc": paperlinkLarge,
-		"title":  "PaperLink Software Official Website",
+		"title":  "Paperlink Software Website",
+        "url": "https://paperlinksoftwares.com/",
 		"techStack": [
             {
                 'photoshop': "Photoshop"

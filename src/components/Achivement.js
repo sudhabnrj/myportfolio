@@ -9,7 +9,8 @@ const Achivement = () => {
                 <div className="w-full sm:w-8/12 lg:p-10">
                     <h3 className="font-bold text-xl mb-3 text-slate-700 dark:text-slate-300">Outstanding performance in Frontend Development</h3>
                     <p className='text-slate-600 dark:text-slate-400'>Codeclouds It Solutions Private Limited - 2023</p>
-                    <p className="mt-4 text-gray-600 dark:text-slate-300 font-normal">🌟 Thrilled to be recognized for outstanding performance in HTML Development for the year 2023! 🏆 It's been a passion-driven journey, and I'm grateful for the opportunity to contribute to innovative web solutions.</p>
+                    <p className="mt-4 text-gray-600 dark:text-slate-300 font-normal">In 2023, I was honored with an award for Outstanding Performance in Frontend Development, recognizing my dedication and expertise in crafting seamless user experiences through innovative technologies and meticulous attention to 
+                    detail. 🌟 🏆</p>
                 </div>
                 <div className="w-full sm:w-4/12 mt-5 lg:mt-0">
                     <div className="flex flex-wrap">

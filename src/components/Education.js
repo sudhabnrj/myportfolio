@@ -4,7 +4,7 @@ const Education = ({title, issueDate, issueBy}) => {
             <h2 className="mb-4 flex justify-between items-center text-slate-700 dark:text-slate-300">
                 <span className="font-bold text-xl">{title}</span>
             </h2>
-            <h3 className="mb-4 flex flex-col justify-start items-start text-stone-600 dark:text-slate-500">
+            <h3 className="mb-4 flex flex-col justify-start items-start text-stone-600 dark:text-slate-400">
                 <span className="font-bold ">{issueBy}</span>
                 <span className="mt-4">{issueDate}</span>
             </h3>

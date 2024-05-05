@@ -9,14 +9,14 @@ import {Link} from 'react-router-dom';
 const About = () => {
     
     return(
-        <section className="relative py-20 z-10 before:content[''] before:bg-orange-100 dark:before:bg-slate-800 before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0 before:-z-10 before:rounded-tl-none before:rounded-tr-none before:rounded-bl-full before:rounded-br-none">
+        <section className="relative py-10 md:py-20 z-10 before:content[''] before:bg-orange-100 dark:before:bg-slate-800 before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0 before:-z-10 before:rounded-tl-none before:rounded-tr-none before:rounded-bl-full before:rounded-br-none">
             <div className="container mx-auto px-4 lg:px-0">
                 <div className="flex flex-col justify-between items-start">
                     <div className="flex flex-col w-full mt-10 rounded-md lg:p-5">
                         <h1 className="text-4xl font-bold leading-10 text-stone-950 dark:text-stone-50 mb-16">
                             <span>Personal Details </span>
                         </h1>
-                        <p className='font-normal mb-5 text-stone-900 dark:text-slate-300'>Working as a <strong>Senior HTML Developer</strong> full-time at <strong>Codeclouds IT Solutions Private Limited</strong> with <strong>9</strong> years experience in Frontend Technologies - <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>JavaScript</strong>, <strong>React Js</strong>, <strong>Bootstrap</strong>, <strong>Photoshop</strong>, <strong>Adobe XD</strong>, <strong>Figma</strong>, <strong>Parcel</strong> and <strong>Github</strong> In addition to it also having knowledge in <strong>WordPress</strong>, <strong>Woo-commerce</strong>, <strong>SCSS</strong> and <strong>Material Design</strong>. Being a quick and focused learner, seeking opportunities to upskill myself and learn new skills to enhance quality of work and handle more responsibilities.</p>
+                        <p className='font-normal mb-5 text-stone-900 dark:text-slate-300'>I am employed full-time as a Senior HTML Developer at Codeclouds IT Solutions Private Limited, with 9 years of experience in Frontend Technologies including HTML5, CSS3, JavaScript, React JS, Bootstrap, and proficiency in design tools such as Photoshop, Adobe XD, Figma, as well as build tools like Parcel and version control systems like GitHub. Additionally, I possess knowledge in WordPress, WooCommerce, SCSS, and Material Design. As a quick and focused learner, I actively seek opportunities to enhance my skills, ensuring high-quality work and readiness to undertake additional responsibilities.</p>
                         <div className="border border-yellow-300 rounded-md p-4">
                             <PersonalDetails/>
                         </div>

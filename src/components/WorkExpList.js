@@ -12,7 +12,7 @@ const WorkExpList = ({designation, companyName, summary, joiningDate, lastWorkin
                 <span className="font-bold">{companyName}</span>
                 {/* <span className="">{experience} Years</span> */}
             </h3>
-            <p className="text-slate-700 dark:text-slate-300 font-normal">
+            <p className="text-slate-700 dark:text-slate-300 font-normal pl-5">
                 {summary}
             </p>
         </li>

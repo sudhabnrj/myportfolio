@@ -29,10 +29,12 @@ const Home = () => {
         html_url,
     } = personalInfo;
 
+    const pdf = 'https://drive.google.com/file/d/12hKXtybPoo_wIOvN592Ukn8tnvpl0jEF/view?usp=sharing'
+
     //console.log(personalInfo);
 
     return(
-        <section className="relative py-20 z-10 before:content[''] before:bg-orange-100 dark:before:bg-slate-800 before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0 before:-z-10 before:rounded-tl-none before:rounded-tr-none before:rounded-bl-full before:rounded-br-none">
+        <section className="relative py-10 md:py-20 z-10 before:content[''] before:bg-orange-100 dark:before:bg-slate-800 before:absolute before:top-0 before:left-0 before:bottom-0 before:right-0 before:-z-10 before:rounded-tl-none before:rounded-tr-none before:rounded-bl-full before:rounded-br-none">
             <div className="container mx-auto px-4 lg:px-0">
                 <div className="flex flex-col lg:flex-row justify-between items-start">
                     <aside className="flex flex-col w-full lg:w-3/12 mt-10 border border-gray-300 dark:border-slate-700 p-5">
@@ -74,8 +76,8 @@ const Home = () => {
                             </li>
                         </ul>
                         <div className="flex justify-between mt-5">
-                            <button type="button" className="bg-slate-700 border border-slate-700 text-white font-medium py-2 px-4 rounded-md w-full hover:bg-transparent hover:text-slate-700 dark:hover:text-slate-400 transition-all">Resume</button>
-                            {/* <Link to={PDF} type="button" className="group border border-slate-500 dark:border-slate-700 bg-transparent dark:text-slate-700 font-medium w-2/12 py-2 px-2 rounded-md flex justify-center items-center dark:hover:bg-slate-700 dark:hover:text-white transition-all" download>
+                            <Link to={pdf} target='_blank' className="bg-slate-700 border border-slate-700 text-white font-medium py-2 px-4 rounded-md w-full hover:bg-transparent hover:text-slate-700 dark:hover:text-slate-400 transition-all text-center">Resume</Link>
+                            {/* <Link to={pdf} type="button" className="group border border-slate-500 dark:border-slate-700 bg-transparent dark:text-slate-700 font-medium w-2/12 py-2 px-2 rounded-md flex justify-center items-center dark:hover:bg-slate-700 dark:hover:text-white transition-all" download>
                                 <GetAppIcon className="!w-6 !h-6 text-slate-700 dark:text-slate-400 dark:group-hover:text-white" />                             
                             </Link> */}
                         </div>
