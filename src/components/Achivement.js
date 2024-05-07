@@ -1,6 +1,8 @@
 import AchivementSrc1 from '../assets/images/achivement1.jpg'
 import AchivementSrc2 from '../assets/images/achivement2.jpg'
 import AchivementSrc3 from '../assets/images/achivement3.jpg'
+import MyGallery from './MyGallery';
+import { Gallery } from 'react-photoswipe-gallery'
 
 const Achivement = () => {
     return(
@@ -13,19 +15,19 @@ const Achivement = () => {
                     detail. 🌟 🏆</p>
                 </div>
                 <div className="w-full sm:w-4/12 mt-5 lg:mt-0">
-                    <div className="flex flex-wrap">
+                    <Gallery className="flex flex-wrap">
                         <div className="w-full mb-4">
-                            <img src={AchivementSrc1} alt="Achivement 1" className="w-full aspect-video object-cover" />
+                            <MyGallery originalsrc={AchivementSrc1} thumbnailSrc={AchivementSrc1} alt="Achivement" acctualWidth={800} acctualHeight={533} />
                         </div>
                         <div className="-m-1 flex">
                             <div className="w-2/4 m-1">
-                                <img src={AchivementSrc2} alt="Achivement 1" className="w-full aspect-video object-cover" />
+                                <MyGallery className="w-full mb-4" originalsrc={AchivementSrc2} thumbnailSrc={AchivementSrc2} alt="Achivement" acctualWidth={800} acctualHeight={597} />
                             </div>
                             <div className="w-2/4 m-1">
-                                <img src={AchivementSrc3} alt="Achivement 1" className="w-full aspect-video object-cover" />
+                                <MyGallery className="w-full mb-4" originalsrc={AchivementSrc3} thumbnailSrc={AchivementSrc3} alt="Achivement" acctualWidth={1050} acctualHeight={1920} />
                             </div>
                         </div>
-                    </div>
+                    </Gallery>
                 </div>
             </div>
         </div>

@@ -69,7 +69,7 @@ const About = () => {
                             <div className="flex flex-col">
                                 {certificationData.map((data)=> {
                                     return(
-                                        <Certification key={data.id} title={data.title} issueBy={data.issue_by} issueDate={data.issue_date} />
+                                        <Certification key={data.id} title={data.title} issueBy={data.issue_by} issueDate={data.issue_date} imgSrc={data.src} width={data.width} height={data.height} />
                                     );
                                 })}
                             </div>

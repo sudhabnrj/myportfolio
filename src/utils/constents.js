@@ -27,6 +27,14 @@ import phototainment from '../assets/images/phototainment.png';
 import phoenix from '../assets/images/phoenix.png';
 import gotripio from '../assets/images/gotripio.png';
 
+import namasteReact from '../assets/images/namaste-react.webp';
+import javascript from '../assets/images/namaste-javascript.webp';
+import reactJS from '../assets/images/reactjs-2023.jpg';
+import bootstrap4 from '../assets/images/bootstrap4.jpg';
+import materializeCss from '../assets/images/materialize-css.jpg';
+import photoshopCertificate from '../assets/images/photoshop.jpg';
+import jqueryCertificate from '../assets/images/jquery.jpg';
+
 export const getSkills = [
     [
         {
@@ -221,43 +229,64 @@ export const certificationData = [
         id: 0,
         title: 'Certificate of Completion - Namaste React',
         issue_by: 'Akshay Saini - NamasteDev.com',
-        issue_date: 'April 2024'
+        issue_date: 'April 2024',
+        src: namasteReact,
+        width: '1093',
+        height: '773'
     },
     {
         id: 6,
         title: 'Namaste JavaScript',
         issue_by: 'Akshay Saini - NamasteDev.com',
-        issue_date: 'November, 2023'
+        issue_date: 'November, 2023',
+        src: javascript,
+        width: '1093',
+        height: '773'
     },
     {
         id: 1,
         title: 'React Js - Complete Guide for Frontend Web Development',
         issue_by: 'Udemy',
-        issue_date: 'June 08, 2023'
+        issue_date: 'June 08, 2023',
+        src: reactJS,
+        width: '1600',
+        height: '1190'
     },
     {
         id: 2,
         title: 'Bootstrap 4 Bootcamp',
         issue_by: 'Udemy',
-        issue_date: 'August 05, 2019'
+        issue_date: 'August 05, 2019',
+        src: bootstrap4,
+        width: '1600',
+        height: '1190'
     },
     {
         id: 3,
         title: 'Materialize CSS from Scratch With 5 Projects',
         issue_by: 'Udemy',
-        issue_date: 'October 04, 2019'
+        issue_date: 'October 04, 2019',
+        src: materializeCss,
+        width: '1600',
+        height: '1190'
     },
     {
         id: 4,
         title: 'Adobe Photoshop CC-Advanced Training Course',
         issue_by: 'Udemy',
-        issue_date: 'July 04, 2020'
+        issue_date: 'July 04, 2020',
+        src: photoshopCertificate,
+        width: '1600',
+        height: '1190'
     },
     {
         id: 5,
         title: 'jQuery From Beginner to Advanced!',
         issue_by: 'Udemy',
-        issue_date: 'August 20, 2019'
+        issue_date: 'August 20, 2019',
+        src: jqueryCertificate,
+        width: '1600',
+        height: '1190'
     }
 ]
 
