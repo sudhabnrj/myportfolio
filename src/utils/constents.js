@@ -235,7 +235,7 @@ export const certificationData = [
         height: '773'
     },
     {
-        id: 6,
+        id: 1,
         title: 'Namaste JavaScript',
         issue_by: 'Akshay Saini - NamasteDev.com',
         issue_date: 'November, 2023',
@@ -244,7 +244,7 @@ export const certificationData = [
         height: '773'
     },
     {
-        id: 1,
+        id: 2,
         title: 'React Js - Complete Guide for Frontend Web Development',
         issue_by: 'Udemy',
         issue_date: 'June 08, 2023',
@@ -253,7 +253,7 @@ export const certificationData = [
         height: '1190'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Bootstrap 4 Bootcamp',
         issue_by: 'Udemy',
         issue_date: 'August 05, 2019',
@@ -262,7 +262,7 @@ export const certificationData = [
         height: '1190'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Materialize CSS from Scratch With 5 Projects',
         issue_by: 'Udemy',
         issue_date: 'October 04, 2019',
@@ -271,7 +271,7 @@ export const certificationData = [
         height: '1190'
     },
     {
-        id: 4,
+        id: 5,
         title: 'Adobe Photoshop CC-Advanced Training Course',
         issue_by: 'Udemy',
         issue_date: 'July 04, 2020',
@@ -280,7 +280,7 @@ export const certificationData = [
         height: '1190'
     },
     {
-        id: 5,
+        id: 6,
         title: 'jQuery From Beginner to Advanced!',
         issue_by: 'Udemy',
         issue_date: 'August 20, 2019',

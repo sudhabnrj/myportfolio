@@ -48,6 +48,7 @@ const Work = () => {
                         </h1>
                         <ul className="border-l border-stone-600 dark:border-slate-700">
                             {workData.map((listData) => (
+                                
                                 <WorkExpList key={listData.id} designation={listData.designation} companyName={listData.companyName} summary={listData.summary.map((item)=> (<span className='block w-full mb-3 relative'><KeyboardArrowRightIcon className='absolute left-[-30px] top-0' />{item?.text}</span>))} joiningDate={listData.joiningDate} lastWorkingDate={listData.lastDate} currentlyWorking={listData.currentlyWorking} />
                             ))}                            
                         </ul>

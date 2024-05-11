@@ -11,7 +11,7 @@ const MyGallery = ({originalsrc, thumbnailSrc, alt, acctualWidth, acctualHeight}
             height={acctualHeight}
             >
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src={thumbnailSrc} alt={alt} className="cursor-pointer w-full aspect-video object-cover" />
+                <img ref={ref} onClick={open} src={thumbnailSrc} alt={alt} className="cursor-pointer w-full" />
             )}
         </Item>
     );

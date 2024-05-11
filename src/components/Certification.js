@@ -8,7 +8,7 @@ const Certification = ({title, issueBy, issueDate, imgSrc, width, height}) => {
                 <p className="text-slate-600 dark:text-slate-400 mt-4">{issueBy}</p>
                 <span className="block mt-4 text-slate-700 dark:text-slate-500">Issued {issueDate}</span>
             </div>
-            <div className="w-32 h-[72px] bg-slate-600 rounded-md">
+            <div className="w-32 h-[90px] bg-slate-600 rounded-md">
                 <Gallery>
                     <MyGallery originalsrc={imgSrc} thumbnailSrc={imgSrc} alt={title} acctualWidth={width} acctualHeight={height}/>
                 </Gallery>

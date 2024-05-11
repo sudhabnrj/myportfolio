@@ -2,8 +2,6 @@ import React from 'react';
 import { unsplashPhotos } from '../utils/constents';
 import { Link } from 'react-router-dom';
 import CallMadeIcon from '@mui/icons-material/CallMade';
-import MyGallery from './MyGallery';
-import { Gallery } from 'react-photoswipe-gallery'
 const Projects = () => {
 
     return(

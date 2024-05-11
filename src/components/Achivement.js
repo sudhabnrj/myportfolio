@@ -1,6 +1,9 @@
 import AchivementSrc1 from '../assets/images/achivement1.jpg'
 import AchivementSrc2 from '../assets/images/achivement2.jpg'
 import AchivementSrc3 from '../assets/images/achivement3.jpg'
+import AchivementSrc1Thumb from '../assets/images/achivement1-thumb.jpg'
+import AchivementSrc2Thumb from '../assets/images/achivement2-thumb.jpg'
+import AchivementSrc3Thumb from '../assets/images/achivement3-thumb.jpg'
 import MyGallery from './MyGallery';
 import { Gallery } from 'react-photoswipe-gallery'
 
@@ -17,14 +20,14 @@ const Achivement = () => {
                 <div className="w-full sm:w-4/12 mt-5 lg:mt-0">
                     <Gallery className="flex flex-wrap">
                         <div className="w-full mb-4">
-                            <MyGallery originalsrc={AchivementSrc1} thumbnailSrc={AchivementSrc1} alt="Achivement" acctualWidth={800} acctualHeight={533} />
+                            <MyGallery originalsrc={AchivementSrc1} thumbnailSrc={AchivementSrc1Thumb} alt="Achivement" acctualWidth={800} acctualHeight={533} />
                         </div>
                         <div className="-m-1 flex">
                             <div className="w-2/4 m-1">
-                                <MyGallery className="w-full mb-4" originalsrc={AchivementSrc2} thumbnailSrc={AchivementSrc2} alt="Achivement" acctualWidth={800} acctualHeight={597} />
+                                <MyGallery className="w-full mb-4" originalsrc={AchivementSrc2} thumbnailSrc={AchivementSrc2Thumb} alt="Achivement" acctualWidth={800} acctualHeight={597} />
                             </div>
                             <div className="w-2/4 m-1">
-                                <MyGallery className="w-full mb-4" originalsrc={AchivementSrc3} thumbnailSrc={AchivementSrc3} alt="Achivement" acctualWidth={1050} acctualHeight={1920} />
+                                <MyGallery className="w-full mb-4" originalsrc={AchivementSrc3} thumbnailSrc={AchivementSrc3Thumb} alt="Achivement" acctualWidth={1050} acctualHeight={1920} />
                             </div>
                         </div>
                     </Gallery>
