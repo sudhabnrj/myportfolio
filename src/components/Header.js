@@ -14,6 +14,9 @@ const Header = () => {
         setToggleMenu(!toggleMenu);
         //console.log('clicked');
     }
+    const closeMenu = () => {
+        setToggleMenu(false);
+    }
 
     return(
         <header className={`flex flex-col w-full bg-stone-200 dark:bg-slate-700 py-3 ${toggleMenu ? 'opened' : ''}`}>
@@ -23,16 +26,17 @@ const Header = () => {
                     <div className="flex justify-end items-center">
                         <ul className={`flex lg:left-0 flex-col lg:flex-row justify-start lg:justify-end lg:items-center gap-y-3 gap-x-8 fixed lg:relative  w-[250px] lg:w-auto h-full lg:h-auto z-40 lg:z-auto bg-stone-200 dark:bg-slate-900 dark:lg:bg-transparent lg:bg-transparent top-0 bottom-0 lg:top-auto lg:bottom-auto text-left p-5 lg:p-0 transition-all ${toggleMenu ? 'left-0' : 'left-[-250px]'} `}>
                             <li>
-                                <Link to="/" className="dark:text-white text-slate-900 text-xl">Home</Link> 
+                                <Link to="/" className="dark:text-white text-slate-900 text-xl" 
+                                onClick={closeMenu}>Home</Link> 
                             </li>
                             <li>
-                                <Link to="/about" className="dark:text-white text-slate-900 text-xl">About me</Link> 
+                                <Link to="/about" className="dark:text-white text-slate-900 text-xl" onClick={closeMenu}>About me</Link> 
                             </li>
                             <li>
-                                <Link to="/project" className="dark:text-white text-slate-900 text-xl">Projects</Link> 
+                                <Link to="/project" className="dark:text-white text-slate-900 text-xl" onClick={closeMenu}>Projects</Link> 
                             </li>
                             <li>
-                                <Link to="/work" className="dark:text-white text-slate-900 text-xl">Work</Link> 
+                                <Link to="/work" className="dark:text-white text-slate-900 text-xl" onClick={closeMenu}>Work</Link> 
                             </li>
                         </ul>
                         <ul className="flex flex-row justify-end items-center gap-y-3 gap-x-5 ml-6">
