@@ -3,6 +3,8 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useTheme } from '../utils/ThemeContext';
 import { Link } from 'react-router-dom';
+import sudhaLogo from '../assets/images/sudhaLogo.png';
+import sudhaLogoDark from '../assets/images/sudhaLogoDark.png';
 
 
 const Header = () => {
@@ -22,7 +24,10 @@ const Header = () => {
         <header className={`flex flex-col w-full bg-stone-200 dark:bg-slate-700 py-3 ${toggleMenu ? 'opened' : ''}`}>
             <div className="container mx-auto px-4 lg:px-0">
                 <nav className="flex justify-between items-center">
-                    <Link to="/" className="logo text-5xl dark:text-yellow-300 text-yellow-500 capitalize">Portfolio</Link>
+                    <Link to="/" className="logo text-5xl dark:text-yellow-300 text-yellow-500 capitalize">
+                        {isDarkMode ? <img src={sudhaLogoDark} alt="Logo" className='w-60' /> : <img src={sudhaLogo} alt="Logo" className='w-60' />}
+                        
+                    </Link>
                     <div className="flex justify-end items-center">
                         <ul className={`flex lg:left-0 flex-col lg:flex-row justify-start lg:justify-end lg:items-center gap-y-3 gap-x-8 fixed lg:relative  w-[250px] lg:w-auto h-full lg:h-auto z-40 lg:z-auto bg-stone-200 dark:bg-slate-900 dark:lg:bg-transparent lg:bg-transparent top-0 bottom-0 lg:top-auto lg:bottom-auto text-left p-5 lg:p-0 transition-all ${toggleMenu ? 'left-0' : 'left-[-250px]'} `}>
                             <li>
