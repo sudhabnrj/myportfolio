@@ -23,6 +23,7 @@ import acf from '../assets/images/acf.png';
 import elementor from '../assets/images/elementor.webp';
 
 import shopeefood from '../assets/images/shopeefood.png';
+import movieGPT from '../assets/images/moviezonegpt.jpg';
 import paperlinkLarge from '../assets/images/paperlink.png';
 import phototainment from '../assets/images/phototainment.png';
 import phoenix from '../assets/images/phoenix.png';
@@ -360,8 +361,50 @@ export const workData = [
 ]
 
 export const unsplashPhotos = [
-	{
+    {
 		"id":  0,
+		"thumbUrl":  movieGPT,
+        "largeSrc": movieGPT,
+        "url": 'https://moviezonegpt.netlify.app/',
+		"title":  "Netflix Clone using TMDB API",
+		"techStack": [
+            {
+                'react': "React Js"
+            },
+            {
+                'html': "HTML5"
+            },
+            {
+                'css': "Tailwind Css"
+            },            
+            {
+                'wordpress': 'Webpack'
+            },
+            {
+                'api': 'TMDB API',
+            },
+            {
+                'api': 'Firebase API',
+            },
+            {
+                'api': 'Github API',
+            },
+            {
+                'redux': 'Redux Toolkit',
+            },
+            {
+                'firebase': 'Firebase'
+            },
+            {
+                'parcel': 'Parcel',
+            },
+            {
+                'npm': 'NPM',
+            }
+        ]
+	},
+	{
+		"id":  1,
 		"thumbUrl":  shopeefood,
         "largeSrc": shopeefood,
         "url": 'https://shopeefood.netlify.app/',
@@ -397,7 +440,7 @@ export const unsplashPhotos = [
         ]
 	},
     {
-		"id":  1,
+		"id":  2,
 		"thumbUrl":  paperlinkLarge,
         "largeSrc": paperlinkLarge,
 		"title":  "Paperlink Software Website",
@@ -428,7 +471,7 @@ export const unsplashPhotos = [
         ]
 	},
 	{
-		"id":  2,
+		"id":  3,
 		"thumbUrl":  phototainment,
         "largeSrc": phototainment,
 		"title":  "Phototainment",
@@ -459,7 +502,7 @@ export const unsplashPhotos = [
         ]
 	},
 	{
-		"id":  3,
+		"id":  4,
 		"thumbUrl":  phoenix,
         "largeSrc": phoenix,
         "url": "https://phoenixinfosoft.com/",
@@ -493,7 +536,7 @@ export const unsplashPhotos = [
         ]
 	},
 	{
-		"id":  4,
+		"id":  5,
 		"thumbUrl":  gotripio,
         "largeSrc": gotripio,
         "url": "https://gotripio.com/",

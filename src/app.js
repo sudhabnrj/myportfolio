@@ -8,6 +8,7 @@ import Work from './components/Work';
 import Projects from './components/Projects';
 import { ThemeProvider } from './utils/ThemeContext';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
+import Footer from './components/Footer';
 
 
 const App = () =>{
@@ -16,6 +17,7 @@ const App = () =>{
         <ThemeProvider>
             <Header />
             <Outlet/>
+            <Footer/>
         </ThemeProvider>
     );
 }
