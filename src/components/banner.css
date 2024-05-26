@@ -342,7 +342,7 @@
 .extremeMobile{
     display: none;
 }
-@media(max-width: 399px){
+@media(max-width: 374px){
     .extremeMobile{
         display: block;
     }
