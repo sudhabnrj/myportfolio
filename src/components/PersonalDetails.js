@@ -22,7 +22,7 @@ const PersonalDetails = ({title, number}) => {
             <li className="mb-5 w-full sm:w-6/12 lg:w-6/12">
                 <span className="font-medium text-slate-700 dark:text-slate-300 relative z-10 after:content-[''] after:absolute after:-top-2 after:-right-2 after:bg-yellow-300 dark:after:bg-slate-600 after:w-5 after:h-5 after:rounded-full after:-z-10">Email Id</span>
                 <h2 className="text-stone-950 dark:text-slate-300 font-bold text-xl mt-0">
-                    <Link to="mailto:sudhabnrj@gmail.com">sudha.banerjee@codeclouds.in</Link>
+                    <Link to="mailto:sudhabnrj@gmail.com">sudhabnrj@gmail.com</Link>
                 </h2>
             </li>
             <li className="mb-5 w-full sm:w-6/12 lg:w-3/12">
