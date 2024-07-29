@@ -119,3 +119,6 @@ header.opened span.line-icon:nth-child(4) {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+.grid-full > span > span{
+    width: 100%;
+}

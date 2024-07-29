@@ -1,9 +1,12 @@
 // import userAvatar from '../assets/images/user.png';
+import React, { Suspense } from "react";
 import { getSkills } from '../utils/constents';
 import usePersonalDetails from '../utils/usePersonalDetails';
 
-import Banner from './Banner';
+// import Banner from './Banner';
 import extremeMobile from '../assets/images/extreme-mobile.png';
+import LoadingImg from './LoadingImg';
+const AnimatedBanner = React.lazy(()=> import ('./Banner.js'))
 
 
 const Home = () => { 
@@ -21,8 +24,14 @@ const Home = () => {
                 <div className="container mx-auto px-4 lg:px-0">
                     <div className="flex flex-col lg:flex-row justify-between items-start">
                         <div className='flex flex-col justify-center lg:justify-start w-full lg:w-4/12 mt-10 p-0'>
-                            <img src={extremeMobile} className='extremeMobile' />
-                            <Banner/>
+                            <LoadingImg src={extremeMobile} className='extremeMobile' />
+                            {/* <Banner/> */}
+                            <Suspense fallback={
+                                <div>
+                                    <LoadingImg src={extremeMobile} alt='Sudha Chandan Banerjee' />
+                                </div>}>
+                                    <AnimatedBanner/>
+                            </Suspense>
                         </div>
                         <div className="flex flex-col w-full lg:w-8/12 mt-10 rounded-md lg:p-5 pt-0 lg:pl-14">
                             <h1 className="text-4xl font-bold leading-10 text-slate-700 dark:text-stone-50 mb-4">{name}</h1>
@@ -34,7 +43,7 @@ const Home = () => {
                                 </li>
                                 <li className="mb-8">
                                     <span className="font-normal text-slate-700 dark:text-slate-300 relative z-10 after:content-[''] after:absolute after:-top-2 after:-right-2 after:bg-yellow-300 dark:after:bg-slate-600 after:w-5 after:h-5 after:rounded-full after:-z-10">Year of Experience</span>
-                                    <h3 className="text-slate-700 dark:text-slate-300 font-bold text-xl mt-0">9 Years</h3>
+                                    <h3 className="text-slate-700 dark:text-slate-300 font-bold text-xl mt-0">8.5 Years</h3>
                                 </li>
                                 <li className="mb-8">
                                     <span className="font-normal text-slate-700 dark:text-slate-300 relative z-10 after:content-[''] after:absolute after:-top-2 after:-right-2 after:bg-yellow-300 dark:after:bg-slate-600 after:w-5 after:h-5 after:rounded-full after:-z-10">Skillsets</span>

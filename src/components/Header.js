@@ -5,6 +5,7 @@ import { useTheme } from '../utils/ThemeContext';
 import { Link } from 'react-router-dom';
 import sudhaLogo from '../assets/images/sudhaLogo.png';
 import sudhaLogoDark from '../assets/images/sudhaLogoDark.png';
+import LoadingImg from './LoadingImg';
 
 
 const Header = () => {
@@ -25,7 +26,7 @@ const Header = () => {
             <div className="container mx-auto px-4 lg:px-0">
                 <nav className="flex justify-between items-center">
                     <Link to="/" className="logo text-5xl dark:text-yellow-300 text-yellow-500 capitalize">
-                        {isDarkMode ? <img src={sudhaLogoDark} alt="Logo" className='w-60' /> : <img src={sudhaLogo} alt="Logo" className='w-60' />}
+                        {isDarkMode ? <LoadingImg src={sudhaLogoDark} alt="Logo" className='w-60' /> : <LoadingImg src={sudhaLogo} alt="Logo" className='w-60' />}
                         
                     </Link>
                     <div className="flex justify-end items-center">

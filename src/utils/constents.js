@@ -43,19 +43,19 @@ export const getSkills = [
             id: 0,
             name: 'HTML5',
             src: htmlLogo,
-            experience: '9 years'
+            experience: '8.5 years'
         },
         {
             id: 1,
             name: 'CSS3',
             src: cssLogo,
-            experience: '9 years'
+            experience: '8.5 years'
         },
         {
             id: 3,
             name: 'Bootstrap',
             src: bootstrap,
-            experience: '9 years'
+            experience: '8.5 years'
         },
         {
             id: 4,
@@ -73,25 +73,25 @@ export const getSkills = [
             id: 11,
             name: 'React Js',
             src: reactjs,
-            experience: '2 years'
+            experience: '3 years'
         },
         {
             id: 17,
             name: 'Redux Toolkit',
             src: redux,
-            experience: '2 years'
+            experience: '3 years'
         },
         {
             id: 18,
             name: 'Parcel',
             src: parceljs,
-            experience: '2 years'
+            experience: '3 years'
         },
         {
             id: 19,
             name: 'NPM',
             src: npmlogo,
-            experience: '2 years'
+            experience: '3 years'
         },
         {
             id: 15,
@@ -109,7 +109,7 @@ export const getSkills = [
             id: 7,
             name: 'Photoshop',
             src: Photoshop,
-            experience: '9 years'
+            experience: '8.5 years'
         },
         {
             id: 8,
@@ -303,7 +303,7 @@ export const workData = [
         currentlyWorking: true,
         summary: [
             {text: 'I initiated my professional journey as a Frontend Developer, rapidly acquiring and applying industry-standard skills in software development and design.'},
-            {text: 'Translated designs and wireframes into high-quality, SEO-friendly code using Figma, Photoshop, XD, HTML5, CSS3, Bootstrap, and JavaScript frameworks like React.js.'},
+            {text: 'Translated designs and wireframes into high-quality, SEO-friendly code using Figma, Photoshop, XD, HTML5, CSS3, Bootstrap, Tailwind, jQuery, and JavaScript frameworks like React.js.'},
             {text: 'Additionally, I worked on WordPress theme design and custom theme development using ACF, Elementor and WooCommerce.'},
             {text: 'Sending updates to clients regarding work progress via email or Slack, and attending client meetings.'}
         ]

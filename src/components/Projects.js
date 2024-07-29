@@ -2,6 +2,7 @@ import React from 'react';
 import { unsplashPhotos } from '../utils/constents';
 import { Link } from 'react-router-dom';
 import CallMadeIcon from '@mui/icons-material/CallMade';
+import LoadingImg from './LoadingImg';
 const Projects = () => {
 
     return(
@@ -15,9 +16,9 @@ const Projects = () => {
                         <div className="rounded-md">
                             <ul className="flex justify-start items-stretch flex-wrap -m-4">
                             {unsplashPhotos.map((image, index) => (
-                                <li key={index} className="w-full md:w-1/2 lg:w-1/3 rounded-md p-4">
-                                    <span className="cursor-pointer w-full h-[250px] relative">
-                                        <img className="image-card aspect-square w-full object-cover h-[250px]" src={image.thumbUrl} />
+                                <li key={index} className="w-full md:w-1/2 lg:w-1/3 rounded-md p-4 grid-full">
+                                    <span className="cursor-pointer w-full h-[250px] relative block">
+                                        <LoadingImg className="image-card aspect-square w-full object-cover h-[250px] block" src={image.thumbUrl} />
                                     </span>
                                     <h1 className="text-2xl my-4">
                                     {image.url ? <Link to={image.url} target="_blank" className='underline'>{image.title}<CallMadeIcon className='!w-4 !h-4'/></Link> : image.title}
