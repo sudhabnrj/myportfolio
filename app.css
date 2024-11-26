@@ -122,3 +122,6 @@ header.opened span.line-icon:nth-child(4) {
 .grid-full > span > span{
     width: 100%;
 }
+.logo > span{
+    color: transparent !important;
+}

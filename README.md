@@ -27,5 +27,3 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aaea1a59-af00-4e5d-82e9-149e99cbe3fa/deploy-status)](https://app.netlify.com/sites/sudhabnrj/deploys)
 
 <br/>
-
-## Hello
